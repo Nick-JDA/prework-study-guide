@@ -11,6 +11,7 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       
@@ -55,16 +56,39 @@
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
+          <li>Git is a version control system that let's you manage and keep track of each version of your project. Git is accessed using the command line but unlike bash commands such as "cd" and "mkdir" Git commands always start with "git".</li>
           <li>git commands always start with "git" and are used to save and track versions of code.</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it.</li>
           <li>git status: checks what branch we are currently on.</li>
+          <li>git revert: "SHA/hash code" to revert to previous code build version when using version control systems.</li>
+          <li>git add: moves changes from the working directory to the staging area.</li>
+          <li>git commit: takes the staged snapshot and commits it to the project history.</li>
+          <li>git commit -m "[ Type in commit message]"</li>
+          <li>git commit -a: commits any files you've added with the git add command and also commits any files you've changed since then.</li>
+          <li>git pull origin main: To check if local branch is in sync with the base branch in GitHub. "git" is keyword, "pull" is command to revieve branch's modifications in to local environment. "Origin" keyword indicates source of the pull will be in the GitHub repo, "main" keyword indicates the branch.</li>
+          <li>git push origin feature/starter-code: To push changes made to "feature/starter-code" we have locally to our remote Github branch.</li>
         </ul>
       </section>
 
       <section class="card" id="javascript-section">
         <h2>Javascript</h2>
         <ul>
-          <li>Enter your Javascript note here</li>
+          <li>JavaScript is a high-level dynamic programming language. Using JavaScript you can power websites with effects, interactivity, data communication, and much more.</li>
+          <li>JavaScript can take a static HTML/CSS webpage and make it interactive.</li>
+          <li>JavaScript is case sensitive.</li>
+          <li>Variables are "containers" that store values.</li>
+          <li>Variables can hold values that have different data types, like Strings, Numbers, Boolean values, Arrays, and Objects.</li>
+          <li>A String is signified by enclosing it in single or double quotation marks.</li>
+          <li>Numbers do not require quotes around them.</li>
+          <li>A Boolean is a True/False value. The words true and false are special keywords that do not require quotation marks.</li>
+          <li>Arrays are structures that allow you to store multiple values in a single reference.</li>
+          <li>An Object can be anything. Everything in JavaScript is an object and can be stored in a variable</li>
+          <li>Operators are mathematical symbols that produce a result based on two values or "variables". Examples include Subtraction -, Multiplication *, Division /, Assignment =, Strict Equality ===, Not or Does-not-equal !, !==</li>
+          <li>Conditionals are code structures used to test if an expression returns true or not. A very common form of this is the if...else statement.</li>
+          <li>Functions are a way of packaging functionality that you wish to reuse. If you see something which looks like a variable name , but it's followed by parentheses-()-it is likely a function. At the most basic level, a function is a set of instructions that tell a computer how to perform a certain task.</li>
+          <li>Events or Event Handlers are code structures that listen for activity in the browser, and run code in response. The most obvious example is handling the "click event", which is fired by the browser when you click on something with your mouse.</li>
+          <li>for loops use the predictable pattern of indices to perform a task on all items in an array by allowing a single code block to be executed over and over.</li>
+          <li>Commenting out is the process of making code inactive without deleting it. To do this put /* before and */ after the block of code.</li>
         </ul>
       </section>
 
@@ -73,5 +97,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
